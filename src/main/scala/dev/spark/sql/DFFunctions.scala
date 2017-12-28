@@ -3,7 +3,7 @@ package dev.spark.sql
 import org.apache.spark.sql.SparkSession
 
 object DFFunctions {
-  case class Car(Model: String ,MPG: Double, Cylinders: Int, EngineDisp: Double,Horsepower: Double,Weight: Double,Accelerate: Double,Year: Int,Origin: String)
+ // case class Car(Model: String ,MPG: Double, Cylinders: Int, EngineDisp: Double,Horsepower: Double,Weight: Double,Accelerate: Double,Year: Int,Origin: String)
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder().appName("Spark SQL basic example").master("local[2]").config("spark.some.config.option", "some-value").getOrCreate()
