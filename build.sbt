@@ -8,6 +8,7 @@ libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-10" % "2.1
 libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.0"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.1.0"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.1.0"
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.6"
 
 //For spark1.6.2 with scala 2.10.6
 //libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka" % "1.6.2"
